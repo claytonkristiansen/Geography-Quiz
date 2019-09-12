@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\GeographyApplication-v1.4_1.1.3.0_x64.appx
+SymbolPackage=C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\AppPackages\GeographyApplication-v1.4_1.1.3.0_Test\GeographyApplication-v1.4_1.1.3.0_x64.appxsym

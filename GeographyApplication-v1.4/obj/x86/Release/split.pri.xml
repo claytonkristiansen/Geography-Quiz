@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="50161ClaytonK.CedarcrestGeographyQuiz" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<DeviceFamily>DESKTOP</DeviceFamily>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeographyApplication-v1.4(Mobile Device).xr.xml" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/GeographyApplication-v1.4(Mobile Device).xr.xml">
+				<Candidate type="Path">
+					<Value>GeographyApplication-v1.4(Mobile Device).xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainMenu.xbf" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/MainMenu.xbf">
+				<Candidate qualifiers="DeviceFamily-DESKTOP" type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/MainPage.xbf">
+				<Candidate qualifiers="DeviceFamily-DESKTOP" type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TestQuizLogicPage.xbf" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/TestQuizLogicPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="AfricaCapitals.txt" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/AfricaCapitals.txt">
+					<Candidate type="Path">
+						<Value>Assets\AfricaCapitals.txt</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AfricaCountries.txt" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/AfricaCountries.txt">
+					<Candidate type="Path">
+						<Value>Assets\AfricaCountries.txt</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AntarcticaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/AntarcticaMap.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AntarcticaMap.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AsiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/AsiaMap.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AsiaMap.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="australia_political_map.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/australia_political_map.jpg">
+					<Candidate type="Path">
+						<Value>Assets\australia_political_map.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EuropeCapitals.txt" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/EuropeCapitals.txt">
+					<Candidate type="Path">
+						<Value>Assets\EuropeCapitals.txt</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EuropeCountries.txt" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/EuropeCountries.txt">
+					<Candidate type="Path">
+						<Value>Assets\EuropeCountries.txt</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EuropeMap.gif" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/EuropeMap.gif">
+					<Candidate type="Path">
+						<Value>Assets\EuropeMap.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EuropeMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/EuropeMap.jpg">
+					<Candidate type="Path">
+						<Value>Assets\EuropeMap.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EuropeRegionsNames.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/EuropeRegionsNames.png">
+					<Candidate type="Path">
+						<Value>Assets\EuropeRegionsNames.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NorthAmericaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/NorthAmericaMap.jpg">
+					<Candidate type="Path">
+						<Value>Assets\NorthAmericaMap.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SouthAmericaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/SouthAmericaMap.jpg">
+					<Candidate type="Path">
+						<Value>Assets\SouthAmericaMap.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Maps">
+					<NamedResource name="AfricaBlankMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/AfricaBlankMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\AfricaBlankMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AngolaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/AngolaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\AngolaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BeninMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/BeninMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\BeninMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BotswanaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/BotswanaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\BotswanaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BurkinaFasoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/BurkinaFasoMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\BurkinaFasoMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BurundiMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/BurundiMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\BurundiMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CameroonMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/CameroonMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\CameroonMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CapeVerdeMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/CapeVerdeMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\CapeVerdeMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CentralAfricanRepublicMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/CentralAfricanRepublicMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\CentralAfricanRepublicMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ChadMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/ChadMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\ChadMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ComorosMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/ComorosMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\ComorosMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CongoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/CongoMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\CongoMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CotedIvoireMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/CotedIvoireMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\CotedIvoireMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DemocraticRepublicOfTheCongoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/DemocraticRepublicOfTheCongoMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\DemocraticRepublicOfTheCongoMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DjiboutiMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/DjiboutiMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\DjiboutiMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EquatorialGuineaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/EquatorialGuineaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\EquatorialGuineaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EritreaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/EritreaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\EritreaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EthiopiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/EthiopiaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\EthiopiaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GabonMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/GabonMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\GabonMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GambiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/GambiaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\GambiaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GhanaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/GhanaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\GhanaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GuineaBissauMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/GuineaBissauMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\GuineaBissauMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GuineaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/GuineaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\GuineaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="KenyaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/KenyaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\KenyaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="LesothoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/LesothoMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\LesothoMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="LiberiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/LiberiaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\LiberiaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MadagascarMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MadagascarMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MadagascarMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MalawiMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MalawiMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MalawiMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MaliMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MaliMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MaliMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MauritiusMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MauritiusMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MauritiusMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MozambiqueMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MozambiqueMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MozambiqueMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MuaritaniaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/MuaritaniaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\MuaritaniaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NamibiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/NamibiaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\NamibiaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NigeriaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/NigeriaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\NigeriaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NigerMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/NigerMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\NigerMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RwandaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/RwandaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\RwandaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SaoTomeandPrincipeMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SaoTomeandPrincipeMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SaoTomeandPrincipeMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SenegalMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SenegalMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SenegalMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SeychellesMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SeychellesMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SeychellesMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SierraLeoneMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SierraLeoneMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SierraLeoneMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SomaliaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SomaliaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SomaliaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SouthAfricaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAfricaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SouthAfricaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SouthSudanMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthSudanMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SouthSudanMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SudanMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SudanMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SudanMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SwazilandMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SwazilandMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\SwazilandMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TanzaniaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/TanzaniaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\TanzaniaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TogoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/TogoMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\TogoMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="UgandaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/UgandaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\UgandaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ZambiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/ZambiaMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\ZambiaMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ZimbabweMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/ZimbabweMap.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\ZimbabweMap.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="SouthAmerica">
+						<NamedResource name="ArgentinaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/ArgentinaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\ArgentinaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="BahamasMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/BahamasMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\BahamasMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="BelizeMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/BelizeMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\BelizeMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="BoliviaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/BoliviaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\BoliviaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="BrazilMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/BrazilMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\BrazilMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ChileMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/ChileMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\ChileMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ColombiaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/ColombiaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\ColombiaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CostaRicaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/CostaRicaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\CostaRicaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CubaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/CubaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\CubaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="DominicanRepublicMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/DominicanRepublicMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\DominicanRepublicMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="EcuadorMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/EcuadorMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\EcuadorMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ElSalvadorMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/ElSalvadorMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\ElSalvadorMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="FrenchGuianaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/FrenchGuianaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\FrenchGuianaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="GuatemalaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/GuatemalaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\GuatemalaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="GuyanaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/GuyanaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\GuyanaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="HaitiMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/HaitiMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\HaitiMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="HondurasMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/HondurasMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\HondurasMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="JamaicaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/JamaicaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\JamaicaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="MexicoMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/MexicoMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\MexicoMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="NicaraguaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/NicaraguaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\NicaraguaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PanamaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/PanamaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\PanamaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ParaguayMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/ParaguayMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\ParaguayMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PeruMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/PeruMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\PeruMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="SouthAmericaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/SouthAmericaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\SouthAmericaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="SurinameMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/SurinameMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\SurinameMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="UruguayMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/UruguayMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\UruguayMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="VenezuelaMap.jpg" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Assets/Maps/SouthAmerica/VenezuelaMap.jpg">
+							<Candidate type="Path">
+								<Value>Assets\Maps\SouthAmerica\VenezuelaMap.jpg</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://50161ClaytonK.CedarcrestGeographyQuiz/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

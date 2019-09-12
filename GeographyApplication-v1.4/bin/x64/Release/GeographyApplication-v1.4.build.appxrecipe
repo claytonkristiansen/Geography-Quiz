@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CLAYTON-PC</Machine>
+    <WindowsUser>Clayt</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>90e0896b-4b5c-4222-bf99-31974b31c411</PackageIdentityName>
+    <PackageIdentityPublisher>CN=2E9F3A1E-FFA6-4C6B-8C64-82A132D0AF3A</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\AfricaCapitals.txt">
+      <PackagePath>Assets\AfricaCapitals.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\AfricaCountries.txt">
+      <PackagePath>Assets\AfricaCountries.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\AntarcticaMap.jpg">
+      <PackagePath>Assets\AntarcticaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\AsiaMap.jpg">
+      <PackagePath>Assets\AsiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\australia_political_map.jpg">
+      <PackagePath>Assets\australia_political_map.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\EuropeCapitals.txt">
+      <PackagePath>Assets\EuropeCapitals.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\EuropeCountries.txt">
+      <PackagePath>Assets\EuropeCountries.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\EuropeMap.gif">
+      <PackagePath>Assets\EuropeMap.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\EuropeMap.jpg">
+      <PackagePath>Assets\EuropeMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\EuropeRegionsNames.png">
+      <PackagePath>Assets\EuropeRegionsNames.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\AfricaBlankMap.jpg">
+      <PackagePath>Assets\Maps\AfricaBlankMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\AngolaMap.jpg">
+      <PackagePath>Assets\Maps\AngolaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\BeninMap.jpg">
+      <PackagePath>Assets\Maps\BeninMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\BotswanaMap.jpg">
+      <PackagePath>Assets\Maps\BotswanaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\BurkinaFasoMap.jpg">
+      <PackagePath>Assets\Maps\BurkinaFasoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\BurundiMap.jpg">
+      <PackagePath>Assets\Maps\BurundiMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\CameroonMap.jpg">
+      <PackagePath>Assets\Maps\CameroonMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\CapeVerdeMap.jpg">
+      <PackagePath>Assets\Maps\CapeVerdeMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\CentralAfricanRepublicMap.jpg">
+      <PackagePath>Assets\Maps\CentralAfricanRepublicMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\ChadMap.jpg">
+      <PackagePath>Assets\Maps\ChadMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\ComorosMap.jpg">
+      <PackagePath>Assets\Maps\ComorosMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\CongoMap.jpg">
+      <PackagePath>Assets\Maps\CongoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\CotedIvoireMap.jpg">
+      <PackagePath>Assets\Maps\CotedIvoireMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\DemocraticRepublicOfTheCongoMap.jpg">
+      <PackagePath>Assets\Maps\DemocraticRepublicOfTheCongoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\DjiboutiMap.jpg">
+      <PackagePath>Assets\Maps\DjiboutiMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\EquatorialGuineaMap.jpg">
+      <PackagePath>Assets\Maps\EquatorialGuineaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\EritreaMap.jpg">
+      <PackagePath>Assets\Maps\EritreaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\EthiopiaMap.jpg">
+      <PackagePath>Assets\Maps\EthiopiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\GabonMap.jpg">
+      <PackagePath>Assets\Maps\GabonMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\GambiaMap.jpg">
+      <PackagePath>Assets\Maps\GambiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\GhanaMap.jpg">
+      <PackagePath>Assets\Maps\GhanaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\GuineaBissauMap.jpg">
+      <PackagePath>Assets\Maps\GuineaBissauMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\GuineaMap.jpg">
+      <PackagePath>Assets\Maps\GuineaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\KenyaMap.jpg">
+      <PackagePath>Assets\Maps\KenyaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\LesothoMap.jpg">
+      <PackagePath>Assets\Maps\LesothoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\LiberiaMap.jpg">
+      <PackagePath>Assets\Maps\LiberiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MadagascarMap.jpg">
+      <PackagePath>Assets\Maps\MadagascarMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MalawiMap.jpg">
+      <PackagePath>Assets\Maps\MalawiMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MaliMap.jpg">
+      <PackagePath>Assets\Maps\MaliMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MauritiusMap.jpg">
+      <PackagePath>Assets\Maps\MauritiusMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MozambiqueMap.jpg">
+      <PackagePath>Assets\Maps\MozambiqueMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\MuaritaniaMap.jpg">
+      <PackagePath>Assets\Maps\MuaritaniaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\NamibiaMap.jpg">
+      <PackagePath>Assets\Maps\NamibiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\NigeriaMap.jpg">
+      <PackagePath>Assets\Maps\NigeriaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\NigerMap.jpg">
+      <PackagePath>Assets\Maps\NigerMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\RwandaMap.jpg">
+      <PackagePath>Assets\Maps\RwandaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SaoTomeandPrincipeMap.jpg">
+      <PackagePath>Assets\Maps\SaoTomeandPrincipeMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SenegalMap.jpg">
+      <PackagePath>Assets\Maps\SenegalMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SeychellesMap.jpg">
+      <PackagePath>Assets\Maps\SeychellesMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SierraLeoneMap.jpg">
+      <PackagePath>Assets\Maps\SierraLeoneMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SomaliaMap.jpg">
+      <PackagePath>Assets\Maps\SomaliaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAfricaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAfricaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\ArgentinaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\ArgentinaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\BahamasMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\BahamasMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\BelizeMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\BelizeMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\BoliviaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\BoliviaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\BrazilMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\BrazilMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\ChileMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\ChileMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\ColombiaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\ColombiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\CostaRicaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\CostaRicaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\CubaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\CubaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\DominicanRepublicMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\DominicanRepublicMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\EcuadorMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\EcuadorMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\ElSalvadorMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\ElSalvadorMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\FrenchGuianaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\FrenchGuianaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\GuatemalaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\GuatemalaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\GuyanaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\GuyanaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\HaitiMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\HaitiMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\HondurasMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\HondurasMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\JamaicaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\JamaicaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\MexicoMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\MexicoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\NicaraguaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\NicaraguaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\PanamaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\PanamaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\ParaguayMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\ParaguayMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\PeruMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\PeruMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\SouthAmericaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\SouthAmericaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\SurinameMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\SurinameMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\UruguayMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\UruguayMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthAmerica\VenezuelaMap.jpg">
+      <PackagePath>Assets\Maps\SouthAmerica\VenezuelaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SouthSudanMap.jpg">
+      <PackagePath>Assets\Maps\SouthSudanMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SudanMap.jpg">
+      <PackagePath>Assets\Maps\SudanMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\SwazilandMap.jpg">
+      <PackagePath>Assets\Maps\SwazilandMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\TanzaniaMap.jpg">
+      <PackagePath>Assets\Maps\TanzaniaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\TogoMap.jpg">
+      <PackagePath>Assets\Maps\TogoMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\UgandaMap.jpg">
+      <PackagePath>Assets\Maps\UgandaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\ZambiaMap.jpg">
+      <PackagePath>Assets\Maps\ZambiaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Maps\ZimbabweMap.jpg">
+      <PackagePath>Assets\Maps\ZimbabweMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\NorthAmericaMap.jpg">
+      <PackagePath>Assets\NorthAmericaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SouthAmericaMap.jpg">
+      <PackagePath>Assets\SouthAmericaMap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\GeographyApplication-v1.4%28Mobile Device%29.dll">
+      <PackagePath>GeographyApplication-v1.4%28Mobile Device%29.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\GeographyApplication-v1.4%28Mobile Device%29.exe">
+      <PackagePath>GeographyApplication-v1.4%28Mobile Device%29.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\GeographyApplication-v1.4%28Mobile Device%29.pdb">
+      <PackagePath>GeographyApplication-v1.4%28Mobile Device%29.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clayt\OneDrive\_Visual Studio\GeographyApplication-v1.5\GeographyApplication-v1.4\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

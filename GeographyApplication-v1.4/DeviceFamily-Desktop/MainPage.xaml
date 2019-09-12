@@ -1,0 +1,196 @@
+﻿<Page
+    x:Class="GeographyApplication_v1._4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GeographyApplication_v1._4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style x:Key="ButtonStyle1" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="8,4,8,4"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="True"/>
+            <Setter Property="FocusVisualMargin" Value="-3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid" Background="{TemplateBinding Background}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="RootGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBackgroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBorderBrushDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <!--<Rectangle RadiusX="60" RadiusY="60" Fill="Black" Margin="0,0,0,0"></Rectangle>-->
+                            <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Image x:Key="Mauritania"                   Source="Assets\Maps\MuaritaniaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Senegal"                      Source="Assets\Maps\SenegalMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Gambia"                       Source="Assets\Maps\GambiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Angola"                       Source="Assets\Maps\AngolaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="GuineaBissau"                 Source="Assets\Maps\GuineaBissauMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Guinea"                       Source="Assets\Maps\GuineaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="SierraLeone"                  Source="Assets\Maps\SierraLeoneMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Liberia"                      Source="Assets\Maps\LiberiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="CotedIvoire"                  Source="Assets\Maps\CotedIvoireMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Mali"                         Source="Assets\Maps\MaliMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="BurkinaFaso"                  Source="Assets\Maps\BurkinaFasoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Ghana"                        Source="Assets\Maps\GhanaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Togo"                         Source="Assets\Maps\TogoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Benin"                        Source="Assets\Maps\BeninMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Niger"                        Source="Assets\Maps\NigerMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Nigeria"                      Source="Assets\Maps\NigeriaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Cameroon"                     Source="Assets\Maps\CameroonMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="SaoTomeandPrincipe"           Source="Assets\Maps\SaoTomeandPrincipeMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="EquatorialGuinea"             Source="Assets\Maps\EquatorialGuineaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Gabon"                        Source="Assets\Maps\GabonMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Congo"                        Source="Assets\Maps\CongoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="DemocraticRepublicoftheCongo" Source="Assets\Maps\DemocraticRepublicoftheCongoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Namibia"                      Source="Assets\Maps\NamibiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="SouthAfrica"                  Source="Assets\Maps\SouthAfricaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Lesotho"                      Source="Assets\Maps\LesothoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Swaziland"                    Source="Assets\Maps\SwazilandMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Botswana"                     Source="Assets\Maps\BotswanaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Zimbabwe"                     Source="Assets\Maps\ZimbabweMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Mozambique"                   Source="Assets\Maps\MozambiqueMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Madagascar"                   Source="Assets\Maps\MadagascarMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Zambia"                       Source="Assets\Maps\ZambiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Malawi"                       Source="Assets\Maps\MalawiMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Tanzania"                     Source="Assets\Maps\TanzaniaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Burundi"                      Source="Assets\Maps\BurundiMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Rwanda"                       Source="Assets\Maps\RwandaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Uganda"                       Source="Assets\Maps\UgandaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Kenya"                        Source="Assets\Maps\KenyaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Somalia"                      Source="Assets\Maps\KenyaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Ethiopia"                     Source="Assets\Maps\EthiopiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Djibouti"                     Source="Assets\Maps\DjiboutiMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Eritrea"                      Source="Assets\Maps\EritreaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Sudan"                        Source="Assets\Maps\SudanMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Chad"                         Source="Assets\Maps\ChadMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="CentralAfricanRepublic"       Source="Assets\Maps\CentralAfricanRepublicMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Mauritius"                    Source="Assets\Maps\MauritiusMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Comoros"                      Source="Assets\Maps\ComorosMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Seychelles"                   Source="Assets\Maps\SeychellesMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="SouthSudan"                   Source="Assets\Maps\SouthSudanMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="CapeVerde"                    Source="Assets\Maps\CapeVerdeMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+
+        <Image x:Key="Mexico"                                   Source="Assets\Maps\SouthAmerica\MexicoMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Guatemala"                                Source="Assets\Maps\SouthAmerica\GuatemalaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Belize"                                   Source="Assets\Maps\SouthAmerica\BelizeMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="ElSalvador"                               Source="Assets\Maps\SouthAmerica\ElSalvadorMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Honduras"                                 Source="Assets\Maps\SouthAmerica\HondurasMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="CostaRica"                                Source="Assets\Maps\SouthAmerica\CostaRicaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Nicaragua"                                Source="Assets\Maps\SouthAmerica\NicaraguaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Panama"                                   Source="Assets\Maps\SouthAmerica\PanamaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Cuba"                                     Source="Assets\Maps\SouthAmerica\CubaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Jamaica"                                  Source="Assets\Maps\SouthAmerica\JamaicaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Haiti"                                    Source="Assets\Maps\SouthAmerica\HaitiMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="DominicanRepublic"                        Source="Assets\Maps\SouthAmerica\DominicanRepublicMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Bahamas"                                  Source="Assets\Maps\SouthAmerica\BahamasMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        
+        <Image x:Key="Argentina"                                Source="Assets\Maps\SouthAmerica\ArgentinaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Bolivia"                                  Source="Assets\Maps\SouthAmerica\BoliviaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Brazil"                                   Source="Assets\Maps\SouthAmerica\BrazilMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Chile"                                    Source="Assets\Maps\SouthAmerica\ChileMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Colombia"                                 Source="Assets\Maps\SouthAmerica\ColombiaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Ecuador"                                  Source="Assets\Maps\SouthAmerica\EcuadorMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="FalklandIslands"                          Source="Assets\Maps\SouthAmerica\FalklandIslandsMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="FrenchGuiana"                             Source="Assets\Maps\SouthAmerica\FrenchGuianaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Guyana"                                   Source="Assets\Maps\SouthAmerica\GuyanaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Paraguay"                                 Source="Assets\Maps\SouthAmerica\ParaguayMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Peru"                                     Source="Assets\Maps\SouthAmerica\PeruMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="SouthGeorgiaandtheSouthSandwichIslands"   Source="Assets\Maps\SouthAmerica\SouthGeorgiaandtheSouthSandwichIslandsMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Suriname"                                 Source="Assets\Maps\SouthAmerica\SurinameMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Uruguay"                                  Source="Assets\Maps\SouthAmerica\UruguayMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+        <Image x:Key="Venezuela"                                Source="Assets\Maps\SouthAmerica\VenezuelaMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"></Image>
+    </Page.Resources>
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Name="GridNumberOne"  Grid.Row="0">
+            <TextBlock Name="Title" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,0" Width="Auto" MinWidth="597.509765625" Text="Africa Geography Quiz" FontSize="60" Foreground="DarkBlue"></TextBlock>
+            <Button Name="ReturnToMenuButton" IsEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Right" Content="RETURN TO MENU" Width="148" Height="40" Margin="0,40,52,40" Click="ReturnToMenuButton_Click"></Button>
+            <Button Name="ScoreNowButton" IsEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Score me now" Width="148" Height="40" Margin="40" Click="ScoreNowButton_Click"></Button>
+        </Grid>
+
+        <Grid Name="GridNumberTwo" Background="White" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Name="GridLeft" Grid.Column="0" Background="Red" Width="Auto" Margin="0,0,0,0">
+                <TextBlock Name="CountrySectionTitle" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,30" Text="Country" Foreground="Black" FontSize="48"/>
+                <TextBlock Name="CountryPromptText" VerticalAlignment="Top" HorizontalAlignment="Center" Height="100" Margin="0,130" Text="" Foreground="Black" FontSize="36"/>
+                <TextBox Name="CountryAnswerText" IsEnabled="True" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,318,0,0" Width="300" Height="75" Foreground="White" Background="Black" Text="" TextAlignment="Left" FontSize="48"/>
+            </Grid>
+
+            <Grid Name="GridRight" Grid.Column="2" Background="Blue" Width="Auto" Margin="0,0,0,0">
+                <TextBlock Name="CapitalSectionTitle" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,30" Text="Capital" Foreground="Black" FontSize="48"/>
+                <TextBlock Name="CapitalPromptText" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,130" Height="100" Text="" Foreground="Black" FontSize="36"/>
+                <TextBox Name="CapitalAnswerText" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,318,0,0" Width="300" Height="75" Foreground="White" Background="Black" Text="" TextAlignment="Left" FontSize="48"/>
+            </Grid>
+
+            <Grid Name="GridMiddle" Grid.Column="1" HorizontalAlignment="Center" Background="White" Width="550">
+                <Image Name="MainCountryImage" Source="Assets\Maps\AfricaBlankMap.jpg" Width="517" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,23,0" RenderTransformOrigin="0,0" Height="600"/>
+                <Button Grid.Column="2" IsEnabled="True" Name="RedButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,50,50" Width="Auto" Content="NEXT" Background="LightBlue" Foreground="Red" Click="RedButton_Click"/>
+                <TextBlock Name="NumberCorrectText" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Text="Number Correct: 0" FontSize="24" Width="250" Height="30" TextAlignment="Left"></TextBlock>
+                <TextBlock Name="NumberIncorrectText" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,30" Text="Number Incorrect: 0" FontSize="24" Width="250" Height="30" TextAlignment="Left"></TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

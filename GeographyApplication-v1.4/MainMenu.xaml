@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="GeographyApplication_v1._4.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GeographyApplication_v1._4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <MenuFlyout x:Key="QuizOrderFlyout">
+            <MenuFlyoutItem Text="Capital to Country" Click="MenuFlyoutCaptoCount_Click"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Country to Capital" Click="MenuFlyoutCounttoCap_Click"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Map to Country and Capital" Click="MenuFlyoutMaptoCountCap_Click"></MenuFlyoutItem>
+        </MenuFlyout>
+    </Page.Resources>
+
+    <Grid Background="Blue">
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="9*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>-->
+
+        <Grid Background="LightCyan" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Geography Quiz v1.4" FontSize="40" Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Calibri" SelectionChanged="TextBlock_SelectionChanged"></TextBlock>
+            <Button Width="200" Height="50" Background="Gray" Content="Quiz Order" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="0" Margin="0,0,0,-90" Flyout="{StaticResource QuizOrderFlyout}" RenderTransformOrigin="0.5,-0.66"/>
+            <Pivot Background="LightBlue" Grid.Row="1" Margin="0,0,0,0">
+                <PivotItem Header="Africa" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="Africa" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\Maps\AfricaBlankMap.jpg"></Image>
+                        <Button Name="AfricaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="AfricaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Europe" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="Europe" Background="White" HorizontalAlignment="Center" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\EuropeMap.jpg"></Image>
+                        <Button Name="EuropeQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="EuropeQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="North America" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="NorthAmerica" Background="White" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\NorthAmericaMap.jpg"></Image>
+                        <Button Name="NorthAmericaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="NorthAmericaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="South America" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="SouthAmerica" Background="White" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\SouthAmericaMap.jpg"></Image>
+                        <Button Name="SouthAmericaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="SouthAmericaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Austrailia" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="Austrailia" Background="White" HorizontalAlignment="Center" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\australia_political_map.jpg"></Image>
+                        <Button Name="AustrailiaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="AustrailiaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Antarctica" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="Antarctica" Background="White" HorizontalAlignment="Center" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\AntarcticaMap.jpg"></Image>
+                        <Button Name= "AntarcticaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="AntarcticaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Asia" VerticalAlignment="Top" Margin="0">
+                    <Grid Name="Asia" Background="White" HorizontalAlignment="Center" Height="441" Margin="0,0,0,0" Width="359">
+                        <Image Source="Assets\AsiaMap.jpg"></Image>
+                        <Button Name="AsiaQuizButton" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" Height="441" Width="359" Click="AsiaQuizButton_Click"></Button>
+                    </Grid>
+                </PivotItem>
+
+            </Pivot>
+        </Grid>
+    </Grid>
+</Page>
